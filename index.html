@@ -1,11 +1,133 @@
-<html>
- 
-<body>
-  <h1>Hello</h1>
-  <p>Welcome to my learnings</p>
-  <img src="https://media.giphy.com/media/l0Exe5NhestV2TfC8/giphy.gif"/>
-</body>
- 
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="./styles.css" type="text/css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CSS Position & Display Cheatsheet</title>
+    </head>
+
+    <body>
+        <h1>CSS Position & Display Cheatsheet</h1>
+
+        <h2>Position Properties</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Tag</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <span class="snippet">position: static;</span>
+                    </td>
+                    <td>Static Position</td>
+                    <td>Element is rendered in the normal flow of the document.</td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="snippet">position: relative;</span>
+                    </td>
+                    <td>Relative Position</td>
+                    <td>Element is positioned relative to its normal position in the document flow.</td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="snippet">position: absolute;</span>
+                    </td>
+                    <td>Absolute Position</td>
+                    <td>Element is positioned relative to the nearest positioned ancestor or the initial containing block.</td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="snippet">position: fixed;</span>
+                    </td>
+                    <td>Fixed Position</td>
+                    <td>Element is positioned relative to the initial containing block (usually the window) and remains fixed even when the page is scrolled.</td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="snippet">position: sticky;</span>
+                    </td>
+                    <td>Sticky Position</td>
+                    <td>Element is positioned based on the user's scroll position. Acts like <span class="snippet">relative:</span> until a certain threshold is reached, then becomes <span class="snippet">fixed:</span>.</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>Display Properties</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Tag</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <span class="snippet">display: block;</span>
+                    </td>
+                    <td>Block Display</td>
+                    <td>Element takes up the full available width and starts on a new line.</td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="snippet">display: inline;</span>
+                    </td>
+                    <td>Inline Display</td>
+                    <td>Element is displayed inline, without line breaks.</td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="snippet">display: inline-block;</span>
+                    </td>
+                    <td>Inline-Block Display</td>
+                    <td>Element is displayed inline but behaves as a block-level element.</td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="snippet">display: none;</span>
+                    </td>
+                    <td>None Display</td>
+                    <td>Element is completely removed from the document flow and not visible.</td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="snippet">display: flex;</span>
+                    </td>
+                    <td>Flex Display</td>
+                    <td>Container becomes a flex container, allowing flexible layout and alignment of elements in one dimension.</td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="snippet">display: grid;</span>
+                    </td>
+                    <td>Grid Display</td>
+                    <td>Container becomes a grid container, allowing complex two-dimensional layouts with rows and columns.</td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="snippet">display: table;</span>
+                    </td>
+                    <td>Table Display</td>
+                    <td>Element behaves like a table element. Other elements can behave like table-row and table-cell elements.</tr>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="snippet">display: inline-table;</span>
+                    </td>
+                    <td>Inline-Table Display</td>
+                    <td>Element behaves like a table but inline. Other elements can behave like table-row and table-cell elements.</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
 </html>
-
-
